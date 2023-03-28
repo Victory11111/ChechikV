@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Rubik Vinyl';
+    src: url('RubikVinyl-Regular.eot');
+    src: url('RubikVinyl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RubikVinyl-Regular.woff2') format('woff2'),
+        url('RubikVinyl-Regular.woff') format('woff'),
+        url('RubikVinyl-Regular.ttf') format('truetype'),
+        url('RubikVinyl-Regular.svg#RubikVinyl-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
