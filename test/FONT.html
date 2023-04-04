@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FONT</title>
+</head>
+<body>
+   <p style="font-size: 25px;"> При кодировании цвета в устаревшем теге FONT можно указывать некоторые забавные значения, например:<br>
+    <font color="#BruceWillis">Buce Willis</font>,<br>
+    <font color="CANDY">CANDY</font><br>
+    <font color="SICK">SICK</font><br>
+    <font color="CRAP">CRAP</font><br>
+    <b>Как это происходит? </b><BR>Заменяем все неправильные шестнадцатеричные символы нулями 0, например, <font color="chucknorris">Chuck Norris</font> превращается в c00c0000000
+“Добиваем” число нулями до количества знаков, делимого на 3 (11 -> 12), получаем
+c00c 0000 0000
+Разбиваем на три группы, каждая из которых отвечает за одну компоненту RGB:
+RGB (c00c, 0000, 0000)
+Обрезаем каждый из аргументов справа, оставляя 2 символа, и получаем наш результат
+RGB (c0, 00, 00) = #C00000 или он же RGB(192, 0, 0).</p>
+        
+</body>
+</html>
