@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess</title>
+<style>
+*{
+    padding: 0;margin: 0;
+}
+
+table.CHESS
+  {
+    border-collapse: collapse;
+  }
+
+  table.CHESS td
+  {
+    width: 50px;
+    height: 50px;
+    border: solid gray 1px;
+  }
+  table.CHESS td {background-color: black}
+
+  table.CHESS tr:nth-of-type(even) td:nth-last-of-type(odd) {background-color: white }
+  table.CHESS tr:nth-of-type(odd) td:nth-last-of-type(even) {background-color: white }
+
+  table.CHESS tr:nth-of-type(odd) td:first-of-type {background-color: rgb(149, 204, 186); width: 20px;}
+  table.CHESS tr:nth-of-type(even) td:first-of-type {background-color: rgb(149, 204, 186); width: 20px; }
+  table.CHESS tr:nth-of-type(odd) td:last-of-type {background-color: rgb(149, 204, 186); width: 20px;}
+  table.CHESS tr:nth-of-type(even) td:last-of-type {background-color: rgb(149, 204, 186); width: 20px;}
+  table.CHESS tr:first-of-type td:nth-of-type(even) {background-color: rgb(149, 204, 186); height: 20px;}
+  table.CHESS tr:first-of-type td:nth-of-type(odd) {background-color: rgb(149, 204, 186); height: 20px;}
+  table.CHESS tr:last-of-type td:nth-of-type(even) {background-color: rgb(149, 204, 186); height: 20px;}
+  table.CHESS tr:last-of-type td:nth-of-type(odd) {background-color: rgb(149, 204, 186); height: 20px;}
+ 
+
+
+
+</style>
+
+</head>
+<body>
+    
+    <table class='CHESS'>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        </table>
+        
+
+</body>
+</html>

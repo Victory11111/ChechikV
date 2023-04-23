@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+    *{
+margin: 0;
+padding: 0;
+
+    }
+
+div.Menu1 { background-color: #E0E0FF; }
+div.Menu1 img { margin: 18px; }
+div.Menu1 a { vertical-align: 35px; color: green; font-weight: 900; font-size: 22px; }
+div.Menu1 a:hover{color: red;}
+div.Menu1 a:first-child { margin-left: 30px;} 
+
+div.Menu2 { background-color: #E0E0FF; padding: 15px; }
+div.Menu2 a { padding: 15px; color: green; font-weight: 900; font-size: 22px; }
+div.Menu2 a:hover{ color: red; }
+div.Menu2 table tr th:not(:last-child) {border-right: red solid 6px; padding: 5px;}
+
+div.Menu3 { background-color: #E0E0FF; }
+div.Menu3 a {vertical-align: 15px; padding: 15px; color: green; font-weight: 900; font-size: 22px; }
+div.Menu3 a:hover{ color: red; }
+div.Menu3 ul li{  display: inline; padding: 5px; }
+div.Menu3 ul {padding: 15px;}
+div.Menu3 ul li:not(:last-child)::after{content: url(red.png);}
+
+div.Menu4 { background-color: #E0E0FF; height: 70px;}
+div.Menu4 a {vertical-align:15px; padding: 20px; color: green; font-weight: 900; font-size: 22px; }
+div.Menu4 div {float: left; margin-top: 18px; background-color: #E0E0FF;}
+div.Menu4 a:hover{color: red;}
+div.Menu4 div:not(:last-child) {border-right: red solid 6px;}
+div.Menu4 div:first-child { margin-left: 20px;} 
+
+
+    </style>
+</head>
+<body>
+    
+    <div class='Menu1'>
+        <a target="_blank" href='https://yandex.by/'>первая ссылка</a> <img src="red.png">
+        <a target="_blank" href='https://yandex.by/'>вторая ссылка</a> <img src="red.png">
+        <a target="_blank" href='https://yandex.by/'>третья ссылка</a> <img src="red.png">
+        <a target="_blank" href='https://yandex.by/'>четвёртая ссылка</a> <img src="red.png">
+        <a target="_blank" href='https://yandex.by/'>пятая ссылка</a>
+    </div>
+    <br>
+
+    <div class='Menu2'>
+        <table >
+        <tr>
+        <th><a target="_blank" href='https://yandex.by/'>первая ссылка</a></th>
+        <th><a target="_blank" href='https://yandex.by/'>вторая ссылка</a></th> 
+        <th><a target="_blank" href='https://yandex.by/'>третья ссылка</a></th> 
+        <th><a target="_blank" href='https://yandex.by/'>четвёртая ссылка</a></th>
+        <th><a target="_blank" href='https://yandex.by/'>пятая ссылка</a></th>
+    </tr> </table>
+</div>
+<br>
+
+<div class='Menu3'>
+<ul>
+<li><a target="_blank" href='https://yandex.by/'>первая ссылка</a></li>
+<li><a target="_blank" href='https://yandex.by/'>вторая ссылка</a></li>
+<li><a target="_blank" href='https://yandex.by/'>третья ссылка</a></li>
+<li><a target="_blank" href='https://yandex.by/'>четвёртая ссылка</a></li>
+<li><a target="_blank" href='https://yandex.by/'>пятая ссылка</a></li>
+</ul>
+</div>
+<br>
+
+<div class='Menu4'>
+<div><a target="_blank" href='https://yandex.by/'>первая ссылка</a></div>
+<div><a target="_blank" href='https://yandex.by/'>вторая ссылка</a></div>
+<div><a target="_blank" href='https://yandex.by/'>третья ссылка</a></div>
+<div><a target="_blank" href='https://yandex.by/'>четвёртая ссылка</a></div>
+<div><a target="_blank" href='https://yandex.by/'>пятая ссылка</a></div>
+</div>
+
+
+</body>
+</html>
