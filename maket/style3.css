@@ -260,7 +260,7 @@ width: 1150px;
 }
 
 .furn {
-    
+position: relative;    
 width: 263px;
 height: 370px;
 float: left;
