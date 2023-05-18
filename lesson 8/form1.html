@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+form{
+padding: 15px;
+line-height: 27px;
+font-size: large;
+}
+
+.left{
+    width: 180px;
+    float: left;
+}
+.right{margin-left: 181px;}
+#nop{width:100%;}
+textarea{width: 100%; height: 100px;}
+.rad{width: max-content;float: left;}
+select{width:100%;}
+@media screen and (max-width:641px){
+.left {  float: none; }
+.right {margin: 0;}
+.rad{ width: 100%;}
+}
+    </style>
+</head>
+<body>
+    <form method="get" action="article.php">
+    Для публикации вашей статьи, заполните, пожалуйста, следующую форму:<br><br>
+<div>
+    <div class="left"> Название статьи:</div>
+    <div class="right"><input id="nop" type="text" name="articleName"></div>
+    <div class="left">Рубрика: </div>
+    <div class="right"><select name="category">
+        <option value="1">Компьютерная техника</option>
+        <option value="2">Графика и дизайн</option>
+        <option value="3">Программирование</option>
+    </select></div>
+    <div class="left">Публикация: </div>
+    <div class="right">   
+<div class="rad"><input type="radio" name="publication" value="1"> на сайте</div>
+<div class="rad"><input type="radio" name="publication" value="2"> в журнале</div>
+<div class="rad"><input type="radio" name="publication" value="3"> на сайте и в журнале</div><br></div></div>
+Разрешить комментарии: 
+<input type="checkbox" name="comments" checked><br>
+Текст статьи:<br>
+<textarea name="article"></textarea><br>
+<input type="submit" value="Опубликовать">
+    </form>
+</body>
+</html>
