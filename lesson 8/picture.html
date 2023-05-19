@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pict</title>
+    <style>
+*{
+    margin: 0%;
+    padding: 0;
+}
+.container{background: rgba(175, 219, 255, 0.39);
+    text-align: justify;
+
+color: rgb(33, 39, 99);
+font-size: 25px;
+padding: 20px;
+
+}
+p{text-indent: 25px;}
+picture{display: flex;
+  justify-content: center;
+margin-top: 50px;}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<p>При использовании тега Img для изображений высокого разрешения одно и то же изображение будет использоваться на каждом устройстве, что приведёт к проблемам с производительностью в устройствах с низким разрешением экрана, например, в мобильных телефонах.
+Это может привести к более долгой загрузке изображений и частичной загрузке изображений сверху вниз. Эту проблему можно легко решить тегом picture.</p> <br>
+<p>Также тег img неидеален при необходимости адаптации изображения под разные размеры экранов. В большинстве случаев изображение, выглядышее отлично на широком жкране, оказывается обрезанным или очень мелким при просмотре на телефоне.
+Можно решить эту проблему, создав различные версии изображения для разных размеров экрана. Эти разные версии могут быть альбомными, портретными или любыми другими изменёнными версиями того же изображения.
+</p>
+
+
+<picture>
+     
+    <source media="(orientation: landscape)"
+              
+       srcset="unnamed3.jpg 1000w"
+              
+       sizes="(min-width: 700px) 700px,
+              (min-width: 600px) 300px,
+              100vw">
+      
+    <source media="(orientation: portrait)"
+              
+       srcset="yuo3.jpg 900w"
+              
+       sizes="(max-width: 600px) 300px,
+              (min-width: 601px) 600px,
+              500px">
+      
+    <img src="yuo.jpg">
+ </picture>
+
+
+
+    </div>
+
+
+
+</body>
+</html>

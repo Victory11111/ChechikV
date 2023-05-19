@@ -268,8 +268,92 @@ margin-left: 15px;
 margin-right: 14px;
 margin-bottom: 20px;
 
+}
+.hov{
+visibility: hidden;   
+position: absolute;
+z-index: 1;
+width: 263px;
+height: 488px;
+background: url(x.png) 75px 392px no-repeat, url(x.png) 154px 392px no-repeat, url(gt.png) no-repeat 0px 350px ;
+box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.11);
 
 }
+
+.hov span{
+position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    
+    line-height: 11px;
+
+}
+
+.size {
+    top: 357px;
+    left: 20px;
+    font-size: 14px;
+}
+
+.height{
+    color: #C4C4C4;
+font-size: 11px;
+left: 176px;
+    top: 381px;
+}
+
+.width{
+    color: #C4C4C4;
+    font-size: 11px;
+    top: 381px;
+    left: 20px ;
+}
+
+.depth{
+    color: #C4C4C4;
+    font-size: 11px;
+    left: 97px;
+    top: 381px;
+}
+.wid{
+    color: #414141;
+    font-size: 10px;
+    left: 20px;
+    top: 400px;
+}
+
+.dep{
+    color: #414141;
+    font-size: 10px;
+    left: 97px;
+    top: 400px;
+}
+
+.hei{
+    color: #414141;
+    font-size: 10px;
+    left: 176px;
+    top: 400px;
+
+}
+.ad{
+    position: absolute;
+    width: 223px;
+    height: 40px;
+    left: 20px;
+    top: 427px;
+    background: #245462;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 40px;  
+    text-align: center;
+}
+
+.furn:hover  > .hov{visibility: visible;} 
 
 .furniture div:nth-child(4n){margin-right: 0px;}
 .furniture div:nth-child(4n+1){margin-left: 0px;}
