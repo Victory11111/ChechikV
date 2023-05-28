@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MAKET_FLEX</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .atf {
+            background-color: #75e3f0;
+            font: 25px bold;
+            text-align: center;
+            padding: 15px;
+
+        }
+
+        .odd {
+            display: flex;
+            background: url(../lesson4/b.png) right top repeat-y;
+        }
+
+        .left {
+            flex-basis: 200px;
+            background-color: rgb(230, 226, 174);
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        .left h3 {
+            padding: 10px 0px 10px 20px
+        }
+
+        .left ul {
+            padding-left: 20px;
+            margin-bottom: 10px;
+            margin-right: 5px;
+        }
+
+        li {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        P {
+            margin-right: 80px;
+            margin-left: 10px;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .right h3 {
+            text-align: center;
+            margin: 10px;
+            font-size: 25px;
+        }
+
+        .right img {
+            float: left;
+            margin: 7px 10px -3px 10px
+        }
+
+        .right {
+            padding-right: 5px;
+        }
+
+        @media screen and (max-width:530px) {
+            .odd {
+
+                flex-direction: column-reverse;
+                background: none;
+            }
+
+            p {
+                margin: 230px 10px 20px 10px;
+               
+            }
+
+            .left {
+                background: none;
+                
+            }
+
+            ul {
+                margin: -10px;
+            }
+
+            .left h3 {
+                margin-bottom: 10px;
+            }
+
+            li {
+                display: inline;
+                text-decoration: underline;
+                margin-right: 10px;
+                white-space: nowrap;
+            }
+
+            .right img {
+            position: absolute;
+            left: 50%;
+            margin-left: -150px;
+        }
+    }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <div class="atf">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!</div>
+    <div class="odd">
+        <div class="left">
+            <h3>Виды спорта:</h3>
+            <ul>
+                <li><a href="https://ru.wikipedia.org/wiki/Конькобежный_спорт" target="_blank">конькобежный спорт</a>
+                </li>
+                <li><a href="https://ru.wikipedia.org/wiki/Биатлон" target="_blank">биатлон</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Футбол" target="_blank">футбол</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Стрельба_из_лука_(вид_спорта)" target="_blank">стрельба из
+                        лука</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_длину" target="_blank">прыжки в длину</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Прыжок_в_высоту" target="_blank">прыжки в высоту</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Фигурное_катание" target="_blank">фигурное катание</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Синхронное_плавание" target="_blank">синхронное плавание</a>
+                </li>
+                <li><a href="https://ru.wikipedia.org/wiki/Шахматы" target="_blank">шахматы</a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/Шашки" target="_blank">шашки</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <h3>Футбол</h3>
+            <img src="../lesson4/h.png">
+            <p>Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими
+                частями тела (кроме рук) большее количество раз, чем команда соперника. <br><br> Есть 17 официальных
+                правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти правила
+                предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как
+                юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто
+                формулировались в общих чертах, которые позволяют упростить их применения в зависимости от характера
+                игры.</p>
+        </div>
+    </div>
+    <div class="atf clear">ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
