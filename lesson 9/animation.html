@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprites</title>
+    <style>
+
+@keyframes MyAnimation2
+{
+    from { background: url(Screenshot_4.png) 0 0; }
+    to { background: url(Screenshot_4.png) -660px 0; }
+}
+
+#EX2
+{
+    width: 94px;
+    height: 146px;
+    animation: MyAnimation2 0.7s steps(7) infinite;
+}
+@keyframes MyAnimation3
+{
+    from { background: url(rh.jpg) 0 0; }
+    to { background: url(rh.jpg) -4800px 0; }
+}
+
+#EX3
+{
+    width: 320px;
+    height: 228px;
+    animation: MyAnimation3 0.7s steps(15) infinite;
+}
+
+    </style>
+</head>
+<body>
+    <div id='EX2'></div>
+    <div id='EX3'></div>
+</body>
+
+</html>

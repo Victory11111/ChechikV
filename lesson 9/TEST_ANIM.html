@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST_ANIM</title>
+    <style>
+.container{
+height: 1000px;
+width: 1000px;
+border: 3px solid mediumseagreen;
+position: relative;
+
+animation: MyAnimation 20s infinite;
+
+}
+
+@keyframes MyAnimation1
+{
+    from {height: 200px;
+    width: 200px; background-color:  mediumturquoise;
+}
+    
+    25% { height: 300px;
+    width: 100px; background-color:  rgb(18, 156, 71);
+}
+
+    50%{ height: 100px;
+    width: 300px;background-color:  rgb(217, 255, 0);
+}
+
+    75% {height: 400px;
+    width: 400px; background-color:  rgb(2, 30, 194);
+    
+}
+to {height: 200px;
+    width: 200px; background-color:  mediumturquoise;
+};
+}
+@keyframes MyAnimation
+{
+    from {background-color: red ; }
+    12.5% {background-color: orange;}
+    25%{ background-color: yellow}
+    37.5% {background-color: greenyellow }
+    50% {background-color: rgb(136, 201, 255) }
+    62.5% {background-color: rgb(33, 36, 221); }
+    75% {background-color: rgb(119, 29, 141); }
+    to {background-color: red; }
+}
+@keyframes MyAnimation3
+{
+    from { rotate: 0grad; }
+     50%{ transform: scale(3); }
+    to {rotate: 360grad; 
+       
+       }
+}
+@keyframes MyAnimation2
+{
+    from {top: 10px;
+    left: 10px; }
+    
+    33% { top: 800px;
+    left: 350px; }
+    66%{ top: 10px;
+    left: 700px;}
+    to {top: 10px;
+    left: 10px; }
+}
+
+#one{
+    background: transparent;
+    border-radius: 60px;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+   }
+   #one::after {
+    content: ''; 
+    position: absolute;
+    border: 150px solid transparent; 
+    border-top: 200px solid green; 
+    
+   
+   }
+   #two{
+    height: 200px;
+    width: 200px;
+    background-color: mediumturquoise;
+    position: absolute;
+    border-radius: 50%;
+    top: 600px;
+    left: 200px;
+    
+    
+   }
+ 
+    #three {
+width: 0; 
+height: 0; 
+margin-bottom: 30px;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid #374F9C;
+position: relative;
+top: 300px;
+left: 450px;
+
+}
+#three:after {
+content: "";
+width: 0; 
+height: 0;
+position: absolute; 
+top: 30px; 
+left: -50px;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-top: 100px solid #374F9C;
+}
+.container:hover{
+#three{animation: MyAnimation3 10s infinite;}
+#two{animation: MyAnimation1 10s infinite;}
+#one::after{animation: MyAnimation2 5s infinite;}
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+
+
+
+    </div>
+</body>
+</html>
