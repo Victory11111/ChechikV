@@ -1,5 +1,5 @@
 body {
-    background: #cccbcb25;
+    background: url(Screenshot_3.png) bottom repeat-x,#cccbcb25 ; 
 }
 
 .container {
