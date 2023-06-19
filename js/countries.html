@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+    input{
+        width: 400px;
+        height:80px;
+        background-color: rgb(0, 255, 102);
+        color:rgb(9, 15, 125);
+        font-size:22px;
+        font-weight:400;
+        padding: 20px;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        border-radius: 50px;
+        border: none;
+        
+    }
+    
+</style>
+</head>
+<body>
+    <div style="text-align:center">
+        <input type="button" value="Ввести информацию о стране" onclick="GetCountry()">
+        <input type="button" value="Получить информацию о стране" onclick="getInfo()">
+        <input type="button" value="Удалить информацию о стране" onclick="deleteInfo()">
+        <input type="button" value="Список стран" onclick="countriesList()">
+    </div>
+<script>
+var countryInfo={};
+var people={};
+var Lang={};
+ function GetCountry(countryName,capitalName,Population, Language) {
+         var countryName = prompt("Введите страну");
+         var capitalName = prompt("Введите столицу");
+         var Population = prompt("Введите население");
+         var Language = prompt("Введите язык");
+         countryInfo[countryName] = capitalName ;
+         people[countryName] = Population;
+         Lang[countryName] = Language;
+         console.log(countryInfo, people, Lang);
+     }
+ 
+ function getInfo(countryName) {
+     var сountryName=prompt('Введите название страны');
+ if ( сountryName in countryInfo )
+     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[countryName] + ' Язык: ' + Lang[countryName] );
+ else
+     alert( 'Нет информации о стране ' + сountryName + '!');
+ 
+ }
+ 
+ function getInfo(countryName) {
+     var сountryName=prompt('Введите название страны');
+ if ( сountryName in countryInfo )
+     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[countryName] + ' Язык: ' + Lang[countryName] );
+ else
+     alert( 'Нет информации о стране ' + сountryName + '!');
+ 
+ }
+
+
+ 
+ function deleteInfo(countryName) {
+     var countryName = prompt("Введите название страны");
+     delete countryInfo[countryName]
+     delete people[countryName]
+     delete Lang[countryName]
+     console.log(countryInfo)
+ }
+ 
+ function countriesList() {
+     for ( var i in countryInfo )
+        console.log('Страна: ' + i + '  Столица: ' + countryInfo[i] + " Население:" + people[i] + ' Язык: ' + Lang[i] )
+ }
+ 
+ 
+ 
+
+
+
+
+
+</script>
+
+</body>
+</html>
