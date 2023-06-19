@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+        
+        .container {
+            border: 1px solid gray;
+            max-width: 1920px;
+           
+            margin: auto;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            padding: 0;
+        }
+        
+        
+        header {
+            position: relative;
+            background-color: #1A1A25;
+            max-width: inherit;
+            min-width: inherit;
+            height: 205px;
+            padding: 0px 255px 0px 255px;
+        }
+        
+        header #first_row {
+            display: flex;
+            height: 70px;
+            justify-content: space-between;
+        }
+        
+        header #first_row>div:first-of-type {
+            border: 1px solid white;
+            padding: 20px 0px;
+            width: 425px;
+        }
+        
+        header #first_row select {
+            position: absolute;
+            background: transparent;
+            border: none;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: right;
+            color: #858FA4;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            top: 25px;
+            outline:0px;
+        }
+        
+        
+        
+        header #first_row div:first-of-type select {
+            width: 143px;
+            height: 20px;
+        }
+        
+        header #first_row>div:last-of-type {
+            border: 1px solid white;
+            padding: 20px 0px;
+            display: flex;
+        }
+        
+        header #first_row>div:last-of-type div {
+            display: flex;
+        }
+        
+        header #first_row button {
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 10px;
+            gap: 10px;
+            width: 142px;
+            height: 37px;
+            background: #384255;
+            border-radius: 6px;
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            border: none;
+            color: #F7F7F7;
+            margin-left: 30px;
+            position: relative;
+            top: -4px;
+        }
+        
+        header #first_row>div:last-of-type>div:first-of-type span {
+            width: 89px;
+            height: 20px;
+            font-size: 14px;
+            line-height: 140%;
+            vertical-align: bottom;
+            color: #909CB5;
+            position: relative;
+            top: 10px;
+            position: relative;
+            top: 5px;
+        }
+        
+        #tel {
+            width: 139px;
+            height: 17px;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            position: relative;
+            top: 7px;
+        }
+        
+        header #first_row>div:last-of-type select {
+            width: 55px;
+            height: 20px;
+            position: relative;
+            top: 5px;
+            left: -5px;
+        }
+        
+        #line {
+            width: 1px;
+            height: 30px;
+            background: rgba(133, 143, 164, 0.15);
+            border-radius: 1px;
+            margin: 0px 30px;
+        }
+        #ACall{width: 113px;
+            height: 20px;
+            font-size: 14px;
+            line-height: 140%;
+            color: #F53B49;
+            position: relative;
+            left: 7px;
+            top: 7px;
+            }
+            header #first_row>div:last-of-type>div:last-of-type span{
+                width: 42px;
+        height: 20px;
+        font-size: 14px;
+        line-height: 140%;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        position: relative;
+        top: 7px;
+            }
+        
+            header #first_row>div:last-of-type>div:last-of-type img{
+                position: relative;
+                left: 10px;
+                top: 3px;
+                margin-right: 12px ;
+            }
+        
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="first_row">
+                <div><img src="image/2654418098080.png" alt="WellFitness">
+                    <select name="city1">
+                        <option value="1">Москва</option>
+                        <option value="2">Санкт-Петербург</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <div> <span> Для дилеров</span> <button>Become a Partner</button> </div>
+                    <div id="line"></div>
+                    <div><span id="tel">+7 (800) 000-00-00</span> 
+                        <select name="city2">
+                            <option value="1">МCК</option>
+                            <option value="2">СПб</option></select>
+                            <span id="ACall">Заказать звонок</span></div>
+                    <div id="line"></div>
+                    <div>
+<span>Войти</span>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIrSURBVHgBlVQ9bNpAFH7vDFaj7M6MZ9izszN0qEqRMmXpEFFFYihWFZEKOqCCUIeOlWgoVYdKzZ7M7RxmmEFdXcD23eudExP/J/kkD34/33333ruHkIOzwcTUiUrEyPANAhcu4qpz2phn5WCa8cPwW52AagSwn+ZnDJfAYPr25NV1LmH/80/Dc9ZtIcCER0ARF/RnVuv181WCUJG5m/UoqYqW8vsj7TYQVBGZESf1WKH37uTFYkfok23XPSIwolxwZZ02RmFTd/j1WNLUEkod702rdWQzZXCcdT1BJpXFyRR0j6ag1IYgBB24Ra3pkyt1IKAaTyTZTUiBUiG9i0Q8wWF3NC4zZ2PX0hKR0jucC4GH8sqY1VHz/acfpbjRvxFgOT2FlRVhCTJQEF77fPClEvyfDy4qqnmQjQPsDieX8ADwrglZgx4RAbfBWYFzQrApfgBBJSPeLiDRSnY0dm1aOp6wOq2j1E6f9cdGUcNefMglloyQbuIJeWQKyudyaic9YsaAFX9HtCHc5JGFSeXtFlEhdMms5ssZIuxInzR/DO9jSVypQ1RToOjy0VZD864mZnc0aer63jS8RcLoj8f7/K92zHfPVdac+0/yftuoIUZ3awWFVg9eAM04d675nrb0D/7HTCxQGQWr7kaIwHY4bwZliuzDnO5lYe54vBeueerG7ny8qGpI9UxiqQo0+GU1G9/jrlTCAKoMGt8Ygm7fOwpcCV2fB8s0Df8BhssEBXGpTs8AAAAASUVORK5CYII=" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="second_row"></div>
+            <div id="third_row"></div>
+
+           
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+</body>
+
+</html>
