@@ -41,36 +41,25 @@ var Lang={};
          var Population = prompt("Введите население");
          var Language = prompt("Введите язык");
          countryInfo[countryName] = capitalName ;
-         people[countryName] = Population;
-         Lang[countryName] = Language;
+         people[Population] = Population;
+         Lang[Language] = Language;
          console.log(countryInfo, people, Lang);
      }
  
  function getInfo(countryName) {
      var сountryName=prompt('Введите название страны');
  if ( сountryName in countryInfo )
-     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[countryName] + ' Язык: ' + Lang[countryName] );
- else
-     alert( 'Нет информации о стране ' + сountryName + '!');
- 
- }
- 
- function getInfo(countryName) {
-     var сountryName=prompt('Введите название страны');
- if ( сountryName in countryInfo )
-     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[countryName] + ' Язык: ' + Lang[countryName] );
+     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[Population] + ' Язык: ' + Lang[Language] );
  else
      alert( 'Нет информации о стране ' + сountryName + '!');
  
  }
 
-
- 
  function deleteInfo(countryName) {
      var countryName = prompt("Введите название страны");
      delete countryInfo[countryName]
-     delete people[countryName]
-     delete Lang[countryName]
+     delete people[Population]
+     delete Lang[Language]
      console.log(countryInfo)
  }
  
