@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style3.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
 
 </head>
 
@@ -31,7 +32,7 @@
                     </select>
                 </div>
                 <div>
-                    <div> <span> Для дилеров</span> <button>Become a Partner</button> </div>
+                    <div> <span id="gtg"> Для дилеров</span> <button id="bec">Become a Partner</button> </div>
                     <div id="line"></div>
                     <div><span id="tel">+7 (800) 000-00-00</span>
                         <select name="city2">
@@ -59,7 +60,7 @@
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAINSURBVHgBrZQ/bNNAFMbfe7kaJDObuZnJzE73IDGRVGTK0qH8kchQCkIdGoYgNZ26wJKKuBNDulLm7slM50RCLBinzvked2cSbEiCLfFJkV/sdz8/v/veIaxRp9dz5VdRVaAqCLjJAC4CBAx8RYI+CXFz1Np5MEmvwVWwdve0Ckw1A1mVQ4RjIPD3duuf1wLfHPVrCriW/OOxUnwOzo2hFNPAiRxPyVkZEaqI5FkwKH/v2SN/KTADI+jvP9k+gxU6PD57CCqu21SBXVNpBtg5+ehF0/BdHtgCenTa1MlVHQaOjJuUfhhF4eIz88CMHMnmUwP9c6cbuJUBYsxlc1VAPuRUq9XQu44DE5eA7maAjLhpAyGvoICQaGjXM5QXwM5Jz5vHr3YbhYCOE8296P6u8Lvtg9XrFDyPwpBu/wqDBdD2gsG+iX5QBQoIiW2rGOFLdlNQXZrrRgnvQQGVEtvoHuJF1jaSB8kDqNjRyyEzCDrfM1aTUo4ywINWY6It4CdQav4Lmp4qLtHArP9rUmbXYTt541w8MifLVMjRwU5jYjbMMT0m2NJNumNTUlOFy2E8RsRLHd9fVyGwPsoE9l8+rp/Pb9EyWCTV/oun2+8jPZvA6oJZZc486wZd1bc4bqZhtsJlMNOLP4t53um57i1wA+3Xt9piq4rGdvfDodnVdbAioutZfKwNOfwfMKOf94AVzq1RjNEAAAAASUVORK5CYII="
                         alt="">
                     <div id="line2"></div>
-                    <ul>
+                    <ul id="menu" class="menu__mobile--hidden">
                         <li><a href="#">Бренды</a></li>
                         <li><a href="#">Сервис</a></li>
                         <li><a href="#">Услуги</a></li>
@@ -127,6 +128,24 @@
         </div>
     </header>
 
+    <div id="open">open</div>
+    <div id="close">close</div>
+
+    <div id="one" class="black"></div>
+    <div id="two" class="black"></div>
+    <div id="three" class="black"></div>
+    <div id="four" class="black"></div>
+    <div id="five" class="black"></div>
+
+
+
+
+
+
+
+
+
+
 
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -162,16 +181,16 @@
         <h2>Тренажеры для дома</h2>
         <div id="forH">
 
-            <div id="divOne"><img src="image/image8.png" alt=""></div>
-            <div id="divTwo"><img src="image/fon.png" alt=""></div>
-            <div id="divThree"><img src="image/image9.png" alt=""></div>
-            <div id="divFour"><img src="image/image10.png" alt=""></div>
-            <div id="divFive"><img src="image/image11.png" alt=""></div>
-            <div id="divSix"><img src="image/image12.png" alt=""></div>
-            <div id="divSeven"><img src="image/image13.png" alt=""></div>
-            <div id="divEight"><img src="image/image14.png" alt=""></div>
-            <div id="divNine"><img src="image/image15.png" alt=""></div>
-            <div id="divTen"><img src="image/image16.png" alt=""></div>
+            <div id="divOne"> <picture> <source srcset="image/AAA.png" media="(max-width: 1289px)"> <img src="image/image8.png" alt=""></picture><p>Беговые <br> дорожки</p></div>
+            <div id="divTwo"> <picture> <source srcset="image/bbb.png" media="(max-width: 1289px)">  <img src="image/fon777.png" alt=""></picture><p>Эллиптические <br> тренажеры</p></div>
+            <div id="divThree"><picture> <source srcset="image/ccc.png" media="(max-width: 1289px)"><img src="image/fon888.png" alt=""></picture><p>Велотренажеры</p></div>
+            <div id="divFour"><picture> <source srcset="image/ddd.png" media="(max-width: 1289px)"><img src="image/image10.png" alt=""></picture><p>Силовые <br> тренажеры</p></div>
+            <div id="divFive"><picture> <source srcset="image/eee.png" media="(max-width: 1289px)"><img src="image/image11.png" alt=""></picture><p>Горнолыжные <br> тренажеры</p></div>
+            <div id="divSix"><picture> <source srcset="image/fff.png" media="(max-width: 1289px)"><img src="image/image12.png" alt=""></picture><p>Гребные <br> тренажеры</p></div>
+            <div id="divSeven"><picture> <source srcset="image/ggg.png" media="(max-width: 1289px)"><img src="image/image13.png" alt=""></picture><p>Батуты</p></div>
+            <div id="divEight"><picture> <source srcset="image/hhh.png" media="(max-width: 1289px)"><img src="image/image14.png" alt=""></picture><p>Игровые <br> cтолы</p></div>
+            <div id="divNine"><picture> <source srcset="image/jjj.png" media="(max-width: 1289px)"><img src="image/image15.png" alt=""></picture><p>Массажные <br> кресла</p></div>
+            <div id="divTen"><picture> <source srcset="image/kkk.png" media="(max-width: 1289px)"><img src="image/image16.png" alt=""></picture><p>Фитнес <br> аксессуары </p></div>
         </div>
         <button id="more" class="noFon"> Все категории</button>
 
@@ -179,13 +198,13 @@
 
         <div id="forC">
 
-            <div><img src="image/Mask Group 1.png" alt=""></div>
-            <div><img src="image/Mask Group 2.png" alt=""></div>
-            <div><img src="image/Mask Group 3.png" alt=""></div>
-            <div><img src="image/Mask Group 4.png" alt=""></div>
-            <div><img src="image/Mask Group 5.png" alt=""></div>
-            <div><img src="image/Mask Group 6.png" alt=""></div>
-            <div><img src="image/Mask Group 7.png" alt=""></div>
+            <div><img src="image/Mask Group 1.png" alt=""><p>Профессиональные <br> кардиотренажеры</p></div>
+            <div><img src="image/Mask Group 2.png" alt=""><p>Грузоблочные <br> тренажеры</p></div>
+            <div><img src="image/Mask Group 3.png" alt=""><p>Тренажеры <br> на свободных <br> весах</p></div>
+            <div><img src="image/Mask Group 4.png" alt=""><p>Функциональный <br> тренинг</p></div>
+            <div><img src="image/Mask Group 5.png" alt=""><p>Wellness, <br> СПА, Массаж  </p></div>
+            <div><img src="image/Mask Group 6.png" alt=""><p>Спортивная медицина <br> и реабилитация</p></div>
+            <div><img src="image/Mask Group 7.png" alt=""><p>Свободные <br> веса</p></div>
 
         </div>
 
@@ -313,6 +332,8 @@
 
                        
                     </div>
+
+
 
                 </div>
                 <div class="carousel-item">
@@ -514,11 +535,36 @@
 <li>Блог</li>
 </ul>
 
+
  </div>
-<div></div>
+
+
+
+
+
+<div> <div class="owl-carousel owl-theme">
+        <div class="item"><img src="image/lama1.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama2.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama3.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama4.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama1.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama2.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama3.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+        <div class="item"><img src="image/lama4.jpg" alt=""><div><h3>В продажу поступили тренажеры Nautilus</h3><p>Представляем тренажеры <br> Nautilus 626 серии.</p> <span>2021.07.18</span></div></div>
+     
+
+    </div>
+</div>
 
 
 </div>
+
+
+
+
+
+
+
 
 <button id="more" class="noFon lol"> Все новости</button>
 </div>
@@ -822,14 +868,60 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"
+integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script src="owl.carousel.min.js"></script>
 
 
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"> </script>
+        
+        
+           
+        
+        
+            <!-- <script
+            src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                var open = $('#open');
+                var close = $('#close');
+                var menu = $('#menu');
+    
+                menu.on('click', 'a', function(event){
+                    event.preventDefault();
+                    var link = $(event.currentTarget).attr('href');
+                    var top = $(link).offset().top;
+                    $('body, html').animate({scrollTop: top-50}, 800)
+                })
+    
+                open.click(function(){
+                    menu.attr('class', 'menu__mobile--visible');
+                    $(this).attr('class', '');
+                    close.attr('class', 'active');
+                });
+    
+                close.click(function(){
+                    menu.attr('class', '');
+                    $(this).attr('class', '');
+                    open.attr('class', 'active');
+                });
+            });
+    
+           
+        </script> -->
+        
+        
+        
+        
+        
         <script>
 
-
+        
 
 document.addEventListener('DOMContentLoaded', (event) => {
     [...document.querySelectorAll(".like")].forEach(el => el.addEventListener('click',function (e) {
@@ -844,42 +936,41 @@ document.querySelector('.like.myClass').classList.remove('myClass');
     }))
 });
 
-
-
-//         document.querySelector('.like').addEventListener('click', () => {
-//   document.querySelector('.like').classList.add('myClass');
-//   document.querySelector('.liked').classList.add('myClass1');
-// }); 
-// document.querySelector('.liked').addEventListener('click', () => {
-//   document.querySelector('.liked.myClass1').classList.remove('myClass1');
-//   document.querySelector('.like.myClass').classList.remove('myClass');
-  
-// }); 
-
-// let like = document.getElementById('like');
-// let liked = document.getElementById('liked');
-// like.onclik = function(){
-//     like.style.visibility = 'hidden';
-//     liked.style.visibility = 'visible';
-//     alert('Цвет текста изменен на красный');
-
-// }
-// liked.onclik = function(){
-//     liked.style.visibility = 'hidden';
-//     like.style.visibility = 'visible';
-//     alert('Цвет текста изменен на красный');
-// }
-
-
-
         
         </script> 
+
+
+
+
+<script>
+$(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: true,
+        
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            500: {
+                items: 2
+            },
+            960: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            }
+        }
+    })
+});
+</script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-            crossorigin="anonymous"> </script>
+        
 </body>
 
 </html>

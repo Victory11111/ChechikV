@@ -1,22 +1,54 @@
 @media screen and (max-width:1950px) {
-    .aboutCompany div:last-of-type img {
-        width: 100%;
-        height: 100%;
-        margin-left: -20px;
-    }
+   
+
+
+    .aboutCompany div:last-of-type img{
+    height: 500px; width:100%; 
+margin-top: 100px;}
 }
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:1430px) {
  .container{min-width: 1320px;}   
- #forH div {
-    
-    width: 300px;
-}
+
+ #wra{ white-space: nowrap;overflow-x: auto; display: block;
+    overflow-y: hidden;}
+ #wra>div{display: inline-block;
+    }
+
 #forC, #forH{
     gap: 20px;
 
-
 }
+}
+@media screen and (max-width:1320px) {
+    .container{min-width: 1140px;}  
+
+    .firstFtr>div:first-of-type ul {width: 170px;}
+   
+    
+    header #second_row li { margin: 0px 5px 0px 5px;}
+
+    .firstFtr>div:last-of-type{position: relative;right: 10px;}
 
 
+    #gtg, #bec{display: none;}
+
+   #divThree,#divFour,#divFive,#divSix,#divSeven,#divEight,#divNine,#divTen{height:160px ;
+}
+    #divOne{
+        height: 340px;
+    }
+    #divTwo{
+        height: 340px;
+    }
+   
+ 
 }

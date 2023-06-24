@@ -19,6 +19,7 @@ body {
     font-style: normal;
     font-weight: 400;
     padding: 0;
+    padding-left: 10px; padding-right: 10px;
 
 }
 
@@ -27,7 +28,7 @@ body {
     height: 44px;
     position: absolute;
     width: 100%;
-    top: 162px;
+    top: 145px
 
 }
 
@@ -35,7 +36,7 @@ body {
 header {
     position: relative;
     background-color: #1A1A25;
-    height: 205px;
+    
 
 
 }
@@ -86,9 +87,7 @@ header #first_row>div:last-of-type div {
 
 header #first_row button {
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    
     padding: 10px;
     gap: 10px;
     width: 142px;
@@ -191,7 +190,7 @@ header #first_row>div:last-of-type>div:last-of-type img {
 }
 
 #second_row {
-    padding: 16px 0px;
+    padding-top: 16px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -514,127 +513,168 @@ header li:hover {
 #forC {
 
     display: grid;
-    gap: 10px;
+    gap: 30px;
     margin-bottom: 30px;
+    
+    
 
 }
 
+#forH{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+
 #forH div {
-    border: #F53B49 1px solid;
-    width: 330px;
+    border-radius: 6px;
+    position: relative;
+}
+
+#forH div p,
+#forC div p {
+    position: absolute;
+    top: 30px;
+    left: 30px;
 }
 
 #forH div img {
     float: right;
+    position: relative;
+
 }
+
+#forH p,
+#forC p {
+    color: #1A1A25;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
 
 #divOne {
     grid-column: 1;
     grid-row: 1/3;
-    height: 430px;
-    background: #384255;
+    background: linear-gradient(rgba(72, 77, 92, 1), rgba(112, 121, 148, 1));
 }
+
+#divOne p {
+    color: #FFF;
+}
+
 
 #divTwo {
     grid-column: 2;
     grid-row: 1/3;
-    height: 430px;
+    background: #F0F1F7;
 }
 
 #divThree {
     grid-column: 3;
-    grid-row: 1;
-    height: 200px;
-    background: url(image/Rectangle\ 185.png);
+    grid-row: 1; 
+    background: #F0F1F7;
 }
 
 #divFour {
     grid-column: 3;
     grid-row: 2;
-    height: 200px;
+    background: #F0F1F7;
 }
 
 #divFive {
     grid-column: 4;
     grid-row: 1;
-    height: 200px;
+    background: #F0F1F7;
 }
 
 #divSix {
     grid-column: 4;
     grid-row: 2;
-    height: 200px;
+    background: #F0F1F7;
 }
 
 #divSeven {
     grid-column: 1;
     grid-row: 3;
-    height: 280px;
+    background: #F0F1F7;
 }
 
 #divEight {
     grid-column: 2;
     grid-row: 3;
-    height: 280px;
+    background: #F0F1F7;
 }
 
 #divNine {
     grid-column: 3;
     grid-row: 3;
-    height: 280px;
+    background: #F0F1F7;
 }
 
 #divTen {
     grid-column: 4;
     grid-row: 3;
-    height: 280px;
+    background: #F0F1F7;
 }
+#forC div:not(:first-of-type) img{float: right;}
 
 #forC div {
-    border: #F53B49 1px solid;
-    height: 280px;
+    position: relative;
+    border-radius: 6px;
 }
+
+#forC>div:first-of-type p {
+    color: #FFF;
+}
+
 
 #forC>div:first-of-type {
     grid-column: 1/3;
     grid-row: 1;
-    width: 690px;
+    
+    background: radial-gradient(rgba(133, 143, 164, 1), rgba(86, 95, 115, 1), rgba(26, 26, 37, 1));
 }
 
 #forC>div:nth-of-type(2) {
     grid-column: 3;
     grid-row: 1;
-    width: 330px;
+    
+    background: #F0F1F7;
 }
 
 #forC>div:nth-of-type(3) {
     grid-column: 4;
     grid-row: 1;
-    width: 330px;
+   
+    background: #F0F1F7;
 }
 
 #forC>div:nth-of-type(4) {
     grid-column: 1;
     grid-row: 2;
-    width: 330px;
+    
+    background: #F0F1F7;
 }
 
 #forC>div:nth-of-type(5) {
     grid-column: 2;
     grid-row: 2;
-    width: 330px;
+    
+    background: #F0F1F7;
 }
 
 #forC>div:nth-of-type(6) {
     grid-column: 3;
     grid-row: 2;
-    width: 330px;
+    
+    background: #F0F1F7;
 }
 
 #forC>div:nth-of-type(7) {
     grid-column: 4;
     grid-row: 2;
-    width: 330px;
+    
+    background: #F0F1F7;
 }
 
 #Acti {
@@ -676,7 +716,9 @@ header li:hover {
     width: 100%;
 }
 
-.typesd{margin-left: 80px;}
+.typesd {
+    margin-left: 80px;
+}
 
 .vend div {
     position: relative;
@@ -879,7 +921,7 @@ header li:hover {
 
 #wra {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .block h2 {
@@ -1069,7 +1111,11 @@ header li:hover {
     line-height: 150%;
     margin-bottom: 40px;
 }
-.aboutCompany div:first-of-type{width: 50%;}
+
+.aboutCompany div:first-of-type {
+    width: 50%;
+}
+
 /* .aboutCompany div:last-of-type{overflow: hidden;} */
 
 .banner2 {
@@ -1152,19 +1198,93 @@ header li:hover {
     display: flex;
 }
 
-.news>div:last-of-type {
-    height: 440px;
-    background-color: #a0a0a0;
-}
 
-.fullStar{position: relative; top: 2px;}
+
+.fullStar {
+    position: relative;
+    top: 2px;
+}
 
 .lol {
     margin-top: 50px;
 }
 
-.card:nth-of-type(3) .neVNal> img:nth-of-type(2){margin-right: 3px ;}
-.card:nth-of-type(4) .malo> img:nth-of-type(2){margin-right: 3px ; margin-left: 3px ;}
+.card:nth-of-type(3) .neVNal>img:nth-of-type(2) {
+    margin-right: 3px;
+}
+
+.card:nth-of-type(4) .malo>img:nth-of-type(2) {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.owl-next {
+    position: absolute; top: 20%; right: 3%;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    background: url(image/arro.svg);
+    background-position: top -20px left -20px;
+    border: none;
+}
+
+.owl-prev,
+.owl-dot {
+    display: none;
+}
+
+.owl-next span {
+    visibility: hidden;
+}
+
+.owl-stage {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background: rgba(26, 26, 37, 1);
 
@@ -1299,25 +1419,35 @@ footer {
     margin-top: 17px;
 }
 
-.secondFtr>div:nth-of-type(2){margin-left: 76px;}
+.secondFtr>div:nth-of-type(2) {
+    margin-left: 76px;
+}
 
 .secondFtr>div:nth-of-type(2) svg {
     cursor: pointer;
     margin-right: 10px;
     margin-top: 20px;
 }
-.secondFtr>div:nth-of-type(3) {display: flex;}
 
-.secondFtr>div{justify-content: center; align-items: center;}
+.secondFtr>div:nth-of-type(3) {
+    display: flex;
+}
 
-.secondFtr>div:last-of-type svg{margin-top: 13px;}
+.secondFtr>div {
+    justify-content: center;
+    align-items: center;
+}
+
+.secondFtr>div:last-of-type svg {
+    margin-top: 13px;
+}
 
 
 .secondFtr button:first-of-type {
     align-items: flex-start;
     padding: 10px;
     gap: 10px;
-    
+
     height: 37px;
     background: #384255;
     border-radius: 8px;
@@ -1349,6 +1479,36 @@ footer {
     margin-right: 30px;
 }
 
+.item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.item div {
+    padding: 20px 0px;
+}
+
+.item h3 {
+    color: #384255;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 120%;
+}
+
+.item p {
+    color: #384255;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 10px 0px;
+}
+
+.item span {
+    color: #384255;
+    font-size: 16px;
+    opacity: 0.5;
+    line-height: 150%;
+}
 
 
 
@@ -1363,6 +1523,82 @@ footer {
 
 
 
+
+
+
+
+
+
+
+#open, #close{
+    width: 35px;
+    height: 23px;
+    background: crimson;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    user-select: none;
+    display: none;
+    z-index: 15;
+}
+
+
+#one{
+    background-color: red;
+    margin-top: 50px;
+}
+#two{
+    background-color: green;
+}
+#three{
+    background-color: blue;
+}
+#four{
+    background-color: orange;
+}
+#five{
+    background-color: violet;
+}
+
+@media all and (max-width: 960px) {
+    #open.active, #close.active{
+        display: block;
+    }
+    #open{
+        display: block;
+    }
+    #menu{
+        flex-direction: column;
+        width: 100px;
+        height: auto;
+        background-color: burlywood;
+        position: absolute;
+        right: -100px;
+        top: 50px;
+        transform: translate(0, 0);
+    }
+    #menu.menu__mobile--visible{
+        transform: translate(-100px, 0px);
+    }
+
+
+
+
+    #menu{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+    #menu li{
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+    #menu li:hover{
+        background-color: rgb(214, 126, 12);
+    }
+}
 
 
 
