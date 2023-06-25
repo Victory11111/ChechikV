@@ -1,54 +1,840 @@
 @media screen and (max-width:1950px) {
-   
 
 
-    .aboutCompany div:last-of-type img{
-    height: 500px; width:100%; 
-margin-top: 100px;}
+
+    .aboutCompany div:last-of-type img {
+        height: 500px;
+        width: 100%;
+        margin-top: 100px;
+    }
 }
 
 
 
+@media screen and (max-width:962px) {
 
 
+#forH>div:first-of-type{height: 270px;}
 
+}
+
+@media screen and (max-width:450px) {
+
+    #forH>div:first-of-type{height: 220px;}
+    #forH>div:first-of-type img{height: 215px;}
+    #forH>div:nth-of-type(2) img{height: 215px;}
+}
 
 
 
 @media screen and (max-width:1430px) {
- .container{min-width: 1320px;}   
-
- #wra{ white-space: nowrap;overflow-x: auto; display: block;
-    overflow-y: hidden;}
- #wra>div{display: inline-block;
+    .container {
+        min-width: 1320px;
     }
 
-#forC, #forH{
-    gap: 20px;
+    #wra {
+        white-space: nowrap;
+        overflow-x: auto;
+        display: block;
+        overflow-y: hidden;
+    }
 
+    #wra>div {
+        display: inline-block;
+    }
+
+    #forC,
+    #forH {
+        gap: 20px;
+
+    }
 }
-}
+
 @media screen and (max-width:1320px) {
-    .container{min-width: 1140px;}  
-
-    .firstFtr>div:first-of-type ul {width: 170px;}
-   
+    .container {
+        min-width: 1140px;
+    }
     
-    header #second_row li { margin: 0px 5px 0px 5px;}
-
-    .firstFtr>div:last-of-type{position: relative;right: 10px;}
 
 
-    #gtg, #bec{display: none;}
 
-   #divThree,#divFour,#divFive,#divSix,#divSeven,#divEight,#divNine,#divTen{height:160px ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .firstFtr>div:first-of-type ul {
+        width: 170px;
+    }
+
+
+    header #second_row li {
+        margin: 0px 5px 0px 5px;
+    }
+
+    .firstFtr>div:last-of-type {
+        position: relative;
+
+    }
+
+
+    #gtg,
+    #bec {
+        display: none;
+    }
+
+    /* #divThree,
+    #divFour,
+    #divFive,
+    #divSix,
+    #divSeven,
+    #divEight,
+    #divNine,
+    #divTen {
+        height: 160px;
+    }
+
+    #divOne {
+        height: 340px;
+    }
+
+    #divTwo {
+        height: 340px;
+    } */
 }
-    #divOne{
-        height: 340px;
+
+@media screen and (min-width:962px) and (max-width:1280px) {
+
+   #forH div p, #forC>div p{top: 10px; left: 10px;font-size: 16px;} }
+    
+
+@media screen and (max-width:400px) {
+
+#forC>div:nth-of-type(2) img,  #forC>div:nth-of-type(3) img, #forC>div:nth-of-type(4) img, #forC>div:nth-of-type(5) img,#forC>div:nth-of-type(6) img,#forC>div:nth-of-type(7) img{width: 144px;}
+}
+
+
+
+
+@media screen and (max-width:1330px) {
+
+
+
+
+    #forH>div:nth-of-type(3) img,  #forH>div:nth-of-type(4) img, #forH>div:nth-of-type(5) img, #forH>div:nth-of-type(6) img,#forH>div:nth-of-type(7) img,  #forH>div:nth-of-type(8) img, #forH>div:nth-of-type(9) img, #forH>div:nth-of-type(10) img{width: 170px;}
+ #forC>div:nth-of-type(1) img{float: right;}
+
+}
+
+
+
+    @media screen and (max-width:1140px) {
+        .container {
+            min-width: 961px;
+        }
+
+
+      
+
+
+
+        #forC>div:nth-of-type(1) {}
+
+        #forC>div:nth-of-type(2) {}
+
+        #forC>div:nth-of-type(3) {}
+
+        #forC>div:nth-of-type(4) {}
+
+        #forC>div:nth-of-type(5) {}
+
+        #forC>div:nth-of-type(6) {}
+
+        #forC>div:nth-of-type(7) {}
+
+        .firstFtr>div:first-of-type {
+            justify-content: space-between;
+        }
+
+        .firstFtr {
+            flex-direction: column;
+            border: none;
+        }
+
+        .firstFtr>div:last-of-type {
+            flex-direction: row;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid rgba(133, 143, 164, 0.15);
+            padding-top: 55px;
+            margin-top: 50px;
+        }
+
+        .secondFtr div button,
+        #ska {
+            display: none;
+        }
+
+        .firstFtr>div:last-of-type button {
+            order: 5;
+        }
+
+        #oferta {
+            display: none;
+        }
+
+        #policy {
+            position: absolute;
+            right: 0px;
+            top: 110px;
+            font-size: 14px;
+        }
+
+        .disl {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .firstFtr>div:last-of-type button {
+            width: 220px;
+            font-size: 12px;
+            padding-left: 3px;
+        }
+
+        #second_row #line2 {
+            margin: 0px 10px;
+        }
+
+        #second_row div:last-of-type img:first-of-type,
+        #second_row>div:last-of-type img:nth-of-type(2),
+        #second_row>div:last-of-type div:first-of-type,
+        #second_row>div:last-of-type div:nth-last-of-type(2) {
+            display: none;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            height: 30px;
+            width: 30px;
+        }
+
+        .carousel-control-prev img,
+        .carousel-control-next img {
+            height: 60px;
+            width: 60px;
+        }
+
+        .brands div {
+            width: 25%;
+        }
+
+        .brands div:nth-last-of-type(3),
+        .brands div:nth-last-of-type(1),
+        .brands div:nth-last-of-type(2) {
+            display: none;
+        }
+
+        .lop>div {
+            width: 50%;
+            border-radius: 0px;
+        }
+
+        .lop>div:nth-of-type(3) {
+            height: 305px;
+            border-radius: 0px;
+            border-bottom-left-radius: 6px;
+        }
+
+        .lop>div:nth-of-type(1) {
+            border-radius: 6px 0px 0px 0px;
+        }
+
+        .lop>div:nth-of-type(2) {
+            border-radius: 0px 6px 0px 0px;
+        }
+
+        .lop>div:nth-of-type(4) {
+            border-radius: 0px 0px 6px 0px;
+        }
+
+        .lop>div:nth-of-type(3) p {
+            width: auto;
+            margin-right: 95px;
+        }
+
+        .lop>div:nth-of-type(3) a {
+            margin-bottom: 10px;
+        }
+
+
+
+
+        .aboutCompany {
+            flex-direction: column;
+            position: relative;
+        }
+
+        .aboutCompany>div:first-of-type {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            margin-top: 100px;
+        }
+
+        .aboutCompany>div:first-of-type h2 {
+            position: absolute;
+            top: -70px;
+        }
+
+        .aboutCompany button {
+            position: absolute;
+            top: 370px;
+        }
+
+        .aboutCompany>div:first-of-type p {
+            z-index: 1;
+        }
+
+        .aboutCompany>div:last-of-type img {
+            margin-top: -180px;
+            height: 100%;
+            z-index: -1;
+        }
+
+        .aboutCompany>div:first-of-type p:first-of-type {
+            width: 50%;
+            font-size: 24px;
+            margin-top: 0px;
+        }
     }
-    #divTwo{
-        height: 340px;
+
+
+    @media screen and (max-width:961px) {
+        .container {
+            min-width: 720px;
+        }
+
+        #carouselExampleAutoplaying {
+            top: 90px;
+            margin-left: 10px;
+            margin-right: 10px
+        }
+
+        header {
+            display: none;
+        }
+
+        .miniHeader {
+            display: block;
+        }
+
+        #kf {
+            margin-top: 200px;
+        }
+
+
+
+        .brands div {
+            width: 33%;
+        }
+
+
+
+
+
+        #forH {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 200px 200px 200px 200px;
+        }
+
+        #forH>div:nth-of-type(1) {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        #forH>div:nth-of-type(2) {
+            grid-column: 1/3;
+            grid-row: 2;
+        }
+
+        #forH>div:nth-of-type(3) {
+            grid-column: 1;
+            grid-row: 3;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(4) {
+            grid-column: 2;
+            grid-row: 3;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(5) {
+            grid-column: 1;
+            grid-row: 4;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(6) {
+            grid-column: 2;
+            grid-row: 4;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(7) {
+            grid-column: 1;
+            grid-row: 5;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(8) {
+            grid-column: 2;
+            grid-row: 5;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(9) {
+            grid-column: 1;
+            grid-row: 6;
+            height: auto;
+        }
+
+        #forH>div:nth-of-type(10) {
+            grid-column: 2;
+            grid-row: 6;
+            height: auto;
+        }
+
+        #forC {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        #forC>div:nth-of-type(1) {
+            grid-column: 1/3;
+            grid-row: 1;
+        }
+
+        #forC>div:nth-of-type(2) {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+        #forC>div:nth-of-type(3) {
+            grid-column: 2;
+            grid-row: 2;
+        }
+
+        #forC>div:nth-of-type(4) {
+            grid-column: 1;
+            grid-row: 3;
+        }
+
+        #forC>div:nth-of-type(5) {
+            grid-column: 2;
+            grid-row: 3;
+        }
+
+        #forC>div:nth-of-type(6) {
+            grid-column: 1;
+            grid-row: 4;
+        }
+
+        #forC>div:nth-of-type(7) {
+            grid-column: 2;
+            grid-row: 4;
+        }
+
+
+        .firstFtr>div:last-of-type>div:first-of-type {
+            width: 160px;
+        }
+
+        .secondFtr>div:last-of-type svg {
+            margin-right: 10px;
+        }
+
+        .secondFtr>div:nth-of-type(2) {
+            margin-left: 10px;
+        }
     }
-   
+
+
+
+
+    @media screen and (max-width:721px) {
+        .container {
+            min-width: 500px;
+        }
+
+        .miniHeader .stroka1>div:last-of-type img:nth-of-type(3),
+        .miniHeader .stroka1>div:last-of-type #ellip2,
+        .miniHeader .stroka1>div:last-of-type #ellip1,
+        .miniHeader .stroka1>div:last-of-type img:nth-of-type(2) {
+            display: none;
+        }
+        .miniHeader .stroka1>div:last-of-type img:nth-of-type(4){height: 50px ; width:20px ;}
+.miniHeader select{display: none; }
+.logos{width: 170px; margin-top: 15px;}
+.stroka1{padding-bottom: 0px;}
+.stroka1 #line{margin: 15px}
+#ops{top: 76px;}
+
+
+        .brands div {
+            width: 33%;
+        }
+
+        .brands div:nth-last-of-type(3),
+        .brands div:nth-last-of-type(1),
+        .brands div:nth-last-of-type(2) {
+            display: none;
+        }
+
+        .brandTypes {
+            white-space: nowrap;
+            overflow-x: auto;
+            display: block;
+            overflow-y: hidden;
+        }
+
+        .brands div:nth-last-of-type(3),
+        .brands div:nth-last-of-type(1),
+        .brands div:nth-last-of-type(2) {
+            display: none;
+        }
+
+        .brands div img {
+            width: 130px;
+        }
+
+
+        .lop>div {
+            width: 100%;
+            border-radius: 0px;
+        }
+
+        .banner2 {
+            display: flex;
+            flex-direction: column-reverse;
+            height: auto;
+
+        }
+
+        .banner2 div {
+            width: auto;
+
+        }
+
+        .banner2 div:last-of-type {
+            margin: 40px 10px 20px 10px;
+
+        }
+
+        .banner2 div:last-of-type button {
+            position: relative;
+            left: 30px;
+
+        }
+
+        .banner2>div:last-of-type p:first-of-type,
+        .banner2>div:last-of-type p:last-of-type {
+            font-size: 22px;
+
+        }
+
+        .firstFtr>div:first-of-type {
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-bottom: 1px solid rgba(133, 143, 164, 0.15);
+        }
+
+        .firstFtr>div:first-of-type ul {
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .firstFtr>div:first-of-type ul:nth-of-type(2),
+        .firstFtr>div:first-of-type ul:nth-of-type(4) {
+            margin: 0px 0px 30px 30px;
+            font-size: 14px;
+        }
+
+        .firstFtr>div:last-of-type {
+            position: relative;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            margin: auto;
+            width: auto;
+            border: none;
+        }
+
+        .disl {
+            order: 6;
+        }
+
+        .firstFtr>div:last-of-type>div:first-of-type {
+            width: auto;
+        }
+
+        .secondFtr>div:nth-of-type(2) {
+            order: 1;
+        }
+
+        #policy {
+            position: static;
+            order: 1;
+            margin-top: 10px;
+        }
+
+        .firstFtr>div:last-of-type button {
+            order: 4;
+            width: auto;
+        }
+
+        .firstFtr>div:last-of-type p {}
+
+        .secondFtr {
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            padding: auto;
+        }
+
+        .secondFtr div {
+            justify-content: center;
+            margin: auto;
+            padding: auto;
+        }
+
+        .secondFtr>div:nth-of-type(2) {
+            margin-left: auto;
+            position: relative;
+            order: 5;
+            bottom: 210px;
+            left: -75px;
+        }
+
+        .firstFtr>div:last-of-type>div:first-of-type {
+            order: 3;
+        }
+
+        .secondFtr>div:nth-of-type(2) {
+            order: 1;
+        }
+
+        #wra {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            justify-content: center;
+        }
+
+        #wra>div img {
+            width: auto
+        }
+
+        #wra div:nth-of-type(1) img {
+            height: 270px;
+            width: 450px;
+        }
+
+        #wra div {
+            margin-bottom: 10px;
+            margin-right: 0px;
+        }
+
+        #wra div img {
+            width: 450px;
+        }
+
+        #wra div:nth-of-type(2) {
+            height: auto;
+            width: auto;
+            margin-right: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+
+        #wra div:nth-of-type(3) {
+            height: auto;
+            width: auto;
+            margin-right: 0px;
+            margin: auto;
+        }
+
+        #wra div:nth-of-type(1) {
+            height: auto;
+            width: auto;
+            margin-right: 0px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+        }
+
+        .aboutCompany>div:first-of-type {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .aboutCompany>div:first-of-type p:first-of-type {
+            width: auto;
+        }
+
+        .aboutCompany>div:first-of-type button {
+            width: 50%;
+            position: static;
+            z-index: 3;
+        }
+
+        .aboutCompany>div:last-of-type img {
+            margin-top: -70px;
+            z-index: 0;
+        }
+    }
+
+    @media screen and (max-width:460px)  {
+        #forC div p{font-size: 13px;
+        top: 10px; left: 10px}
+
+
+    }
+
+
+    @media screen and (min-width:962px) and (max-width:1330px){
+        #forH div:first-of-type {height:400px;}
+
+
+    }
+
+    @media screen and (min-width:1330px) {
+        #forH div:first-of-type {height:530px;}
+
+
+    }
+
+
+
+
+
+
+
+    @media screen and (max-width:720px) and (min-width:460px) {
+        #forC div p{font-size: 15px;
+        top: 15px; left: 15px}
+
+
+    }
+
+    @media screen and (max-width:500px) {
+        .container {
+            min-width: 420px;
+        }
+
+        #forH div p{font-size: 15px;
+        top: 15px; left: 15px}
+
+        .banner2 img {
+            width: 300px;
+        }
+
+        .brands div img {
+            width: 80px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            ;
+        }
+        .brands div:nth-of-type(6) img {height: 41.73px;}
+
+        .brands div {
+            height: auto;
+        }
+
+        .firstFtr>div:first-of-type ul:nth-of-type(1),
+        .firstFtr>div:first-of-type ul:nth-of-type(3) {
+            margin-right: 0px;
+        }
+
+        .firstFtr>div:first-of-type ul:nth-of-type(2),
+        .firstFtr>div:first-of-type ul:nth-of-type(4) {
+            margin-left: 0px;
+        }
+
+        @media screen and (max-width:420px) {
+            .container {
+                min-width: 320px;
+          
+ }
+
+
+
+
+
+
+
+
+
  
+ #Acti h3{font-size: 14px;  }
+ #Acti h2{font-size: 28px; margin-bottom: -2px; }
+ #Acti>div:nth-of-type(2){margin: 0px 15px; } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
 }
+
+@media screen and (max-width:360px) {.firstFtr div li{font-size: 14px;}
+
+.firstFtr>div:first-of-type ul{width: 150px;}
+
+.lop>div p, .lop>div:nth-of-type(3) p {font-size: 14px;}
+.lop>div:nth-of-type(3){padding: 20px 40px 20px 15px;}
+.lop>div h3, .lop>div:nth-of-type(3) h3{font-size: 16px;}
+.lop>div:nth-of-type(1), .lop>div:nth-of-type(2),.lop>div:nth-of-type(4){padding: 45px 48px 45px 48px ;}
+#forC, #forH{gap: 10px;}
+
+
+}
+
+
+
+
+@media screen and (max-width:480px) {#wra div img, #wra div:nth-of-type(1) img{width: 310px;}
+#wra div:nth-of-type(1) img{height: 180px;}
+
+}
+
+@media screen and (max-width:650px) {
+    .carousel-control-prev{left:75%}
+.carousel-control-next{left: 85%;}
+.carousel-control-prev, .carousel-control-next{top: 85%;}
+
+}
+
