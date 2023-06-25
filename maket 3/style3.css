@@ -286,6 +286,7 @@ header #first_row>div:last-of-type>div:first-of-type span {
 }
 
 #tel {
+    
     width: 139px;
     height: 17px;
     font-size: 14px;
@@ -907,6 +908,11 @@ bottom: 0px; right: 0px;} */
 
 }
 
+.owl-carousel .owl-item .card img {
+    width: auto;
+    display: inherit;
+}
+
 .buy {
     justify-content: center;
     align-items: center;
@@ -972,15 +978,7 @@ bottom: 0px; right: 0px;} */
     visibility: hidden;
 }
 
-
-
-
-
-.te {
-    padding: 20px;
-}
-
-.vnal {
+.card .vnal {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -990,14 +988,14 @@ bottom: 0px; right: 0px;} */
 
 }
 
-.neVNal {
+.card .neVNal {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     color: #F53B49;
 }
 
-.malo {
+.card .malo {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
@@ -1009,12 +1007,12 @@ bottom: 0px; right: 0px;} */
     margin-left: 5px;
 }
 
-.showroom {
+.card .showroom {
 
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-    color: #4B7EE8;
+    color: #384255;
     margin-left: 5px;
 }
 
@@ -1672,7 +1670,7 @@ footer {
 }
 
 .item div {
-    padding: 20px 0px;
+    padding: 20px 0px 20px 10px;
 }
 
 .item h3 {
@@ -1698,6 +1696,7 @@ footer {
 
 
 
+.owl-carousel.owl-theme.owl-loaded.owl-drag{margin-bottom: 30px;}
 
 
 
@@ -1714,89 +1713,6 @@ footer {
 
 
 
-
-
-#open,
-#close {
-    width: 35px;
-    height: 23px;
-    background: crimson;
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    user-select: none;
-    display: none;
-    z-index: 15;
-}
-
-
-#one {
-    background-color: red;
-    margin-top: 50px;
-}
-
-#two {
-    background-color: green;
-}
-
-#three {
-    background-color: blue;
-}
-
-#four {
-    background-color: orange;
-}
-
-#five {
-    background-color: violet;
-}
-
-@media all and (max-width: 960px) {
-
-    #open.active,
-    #close.active {
-        display: block;
-    }
-
-    #open {
-        display: block;
-    }
-
-    #menu {
-        flex-direction: column;
-        width: 100px;
-        height: auto;
-        background-color: burlywood;
-        position: absolute;
-        right: -100px;
-        top: 50px;
-        transform: translate(0, 0);
-    }
-
-    #menu.menu__mobile--visible {
-        transform: translate(-100px, 0px);
-    }
-
-
-
-
-    #menu {
-        height: 50px;
-        display: flex;
-        justify-content: center;
-        transition: 0.5s;
-    }
-
-    #menu li {
-        padding: 0 20px;
-        display: flex;
-        align-items: center;
-    }
-
-    #menu li:hover {
-        background-color: rgb(214, 126, 12);
-    }
-}
 
 
 
