@@ -531,7 +531,7 @@ header #second_row ul {
 
 }
 
-
+#third_row .dropdown_house a, #third_row .dropdown_house2 a{color: #FFF; text-decoration: none;}
 
 #third_row div button:hover+.dropdown_menu1 {
     visibility: visible;
