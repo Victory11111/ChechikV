@@ -1557,8 +1557,6 @@ button {
     justify-content: space-between;
 }
 
-
-
 .delivery>div {
     display: flex;
     width: 290px;
@@ -1570,7 +1568,11 @@ button {
     box-sizing: border-box;
     margin-bottom: 30px;
 }
-.delivery>div:first-of-type {border: 2px solid #2FC509;}
+
+.delivery>div:first-of-type {
+    border: 2px solid #2FC509;
+}
+
 .delivery>div input {
     margin-right: 16px;
     position: relative;
@@ -1594,9 +1596,6 @@ button {
 .right2>div:nth-of-type(2) {
     display: flex;
 }
-
-
-
 
 .right2 {
     width: 450px;
@@ -1692,8 +1691,6 @@ button {
     display: flex;
 }
 
-
-
 .sklad {
     display: flex;
     flex-wrap: wrap;
@@ -1705,6 +1702,7 @@ button {
     width: 451px;
     align-items: flex-start;
     margin-bottom: 30px;
+    
 }
 
 .right2>div>p:last-of-type {
