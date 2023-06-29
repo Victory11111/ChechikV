@@ -286,7 +286,7 @@ header #first_row>div:last-of-type>div:first-of-type span {
 }
 
 #tel {
-    
+
     width: 139px;
     height: 17px;
     font-size: 14px;
@@ -531,7 +531,11 @@ header #second_row ul {
 
 }
 
-#third_row .dropdown_house a, #third_row .dropdown_house2 a{color: #FFF; text-decoration: none;}
+#third_row .dropdown_house a,
+#third_row .dropdown_house2 a {
+    color: #FFF;
+    text-decoration: none;
+}
 
 #third_row div button:hover+.dropdown_menu1 {
     visibility: visible;
@@ -686,7 +690,7 @@ header li:hover {
 }
 
 #forH {
-     
+
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
@@ -702,11 +706,25 @@ header li:hover {
     top: 30px;
     left: 30px;
 }
-#divOne img, #divTwo img,#divThree img,#divFour img,#divFive img,#divSix img,#divSeven img,#divEight img,#divNine img,#divTen img{position: absolute; bottom: 0px;
-right: 1px;}
+
+#divOne img,
+#divTwo img,
+#divThree img,
+#divFour img,
+#divFive img,
+#divSix img,
+#divSeven img,
+#divEight img,
+#divNine img,
+#divTen img {
+    position: absolute;
+    bottom: 0px;
+    right: 1px;
+}
+
 #forH div img {
-    float: right; 
- 
+    float: right;
+
     display: block;
     margin-left: auto;
     margin-top: auto;
@@ -727,7 +745,13 @@ right: 1px;}
     grid-row: 1/3;
     background: linear-gradient(rgba(72, 77, 92, 1), rgba(112, 121, 148, 1));
 }
-#divOne img:first-of-type {position: absolute; bottom: 1px; right: 1px;}
+
+#divOne img:first-of-type {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
 #divOne p {
     color: #FFF;
 }
@@ -1694,9 +1718,20 @@ footer {
     line-height: 150%;
 }
 
+#third_row button a {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
 
 
-.owl-carousel.owl-theme.owl-loaded.owl-drag{margin-bottom: 30px;}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+    margin-bottom: 30px;
+}
 
 
 

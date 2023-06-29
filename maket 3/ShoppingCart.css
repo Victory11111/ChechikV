@@ -31,11 +31,6 @@
     display: none;
 }
 
-.logos {
-    height: 19px;
-    width: 200px;
-}
-
 .stroka1 {
     padding: 16px 20px;
     display: flex;
@@ -1702,7 +1697,7 @@ button {
     width: 451px;
     align-items: flex-start;
     margin-bottom: 30px;
-    
+
 }
 
 .right2>div>p:last-of-type {
@@ -1982,4 +1977,13 @@ form p {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
+}
+
+#third_row button a {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
 }

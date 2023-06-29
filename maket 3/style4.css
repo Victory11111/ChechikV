@@ -1014,6 +1014,13 @@ line-height: 140%;
 .watched>div{display: flex; flex-direction: row; flex-wrap: wrap;}
 .watched>div{display: flex; justify-content: space-between;}
 
+#third_row button a{color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+text-decoration: none;}
+
 
 
 

@@ -33,11 +33,6 @@
     display: none;
 }
 
-.logos {
-    height: 19px;
-    width: 200px;
-}
-
 .stroka1 {
     padding: 16px 20px;
     display: flex;
@@ -1265,3 +1260,9 @@ footer {
 .secondFtr>div:last-of-type svg {
     margin-right: 30px;
 }
+#third_row button a{color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+text-decoration: none;}
