@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>countries</title>
 
     <style>
     
@@ -35,21 +35,17 @@
 var countryInfo={};
 var people={};
 var Lang={};
- function GetCountry(countryName,capitalName,Population, Language) {
+ function GetCountry() {
          var countryName = prompt("Введите страну");
          var capitalName = prompt("Введите столицу");
-         var Population = prompt("Введите население");
-         var Language = prompt("Введите язык");
          countryInfo[countryName] = capitalName ;
-         people[Population] = Population;
-         Lang[Language] = Language;
-         console.log(countryInfo, people, Lang);
+         console.log(countryInfo);
      }
  
  function getInfo(countryName) {
      var сountryName=prompt('Введите название страны');
  if ( сountryName in countryInfo )
-     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName] + ' Население: ' + people[Population] + ' Язык: ' + Lang[Language] );
+     alert( 'Страна: ' + сountryName + ' Столица: ' + countryInfo[сountryName]);
  else
      alert( 'Нет информации о стране ' + сountryName + '!');
  
@@ -58,22 +54,13 @@ var Lang={};
  function deleteInfo(countryName) {
      var countryName = prompt("Введите название страны");
      delete countryInfo[countryName]
-     delete people[Population]
-     delete Lang[Language]
-     console.log(countryInfo)
+     alert(countryInfo)
  }
  
  function countriesList() {
      for ( var i in countryInfo )
-        console.log('Страна: ' + i + '  Столица: ' + countryInfo[i] + " Население:" + people[i] + ' Язык: ' + Lang[i] )
+        console.log('Страна: ' + i + '  Столица: ' + countryInfo[i] )
  }
- 
- 
- 
-
-
-
-
 
 </script>
 
